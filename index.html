@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <h1>Kalkulator Sederhana</h1>
+    <div class="container">
+      <div class="display">
+        <input type="number" id="num1" placeholder="Input first number" />
+        <input type="number" id="num2" placeholder="Input second number" />
+        <input type="text" id="result" disabled value="0" />
+      </div>
+
+      <div class="button-wrapper">
+        <button class="btn-reset">Reset</button>
+        <button value="/" class="btn-operate">/</button>
+        <button value="+" class="btn-operate">+</button>
+        <button value="-" class="btn-operate">-</button>
+        <button value="*" class="btn-operate">*</button>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
